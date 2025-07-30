@@ -1,0 +1,137 @@
+.Service {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;     
+    align-items: center;   
+    flex-direction: column;
+}
+.Service_texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.MyService {
+    align-items: center;
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.Service_introduce {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: 438px;
+    height: 68px;
+    flex-shrink: 0;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.Ability {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Ability_name {
+    margin-top: 26px;
+    margin-bottom: 15px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+
+.Ability_texts {
+    margin-top: 0px;
+    margin-bottom: 42px;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.Ability_icons {
+    margin-top: 28px;
+    width: 68px;
+    height: 68px;
+    flex-shrink: 0;
+}
+
+.Ability_bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    height: 225px;
+    flex-shrink: 0;
+}
+
+.Advert {
+    margin-top: 31px;
+    margin-bottom: 22px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+
+.Advert_texts {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 260px;
+    height: 78px;
+    flex-shrink: 0;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.Order {
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--Yellow, #FFB400);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

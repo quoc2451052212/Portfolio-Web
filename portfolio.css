@@ -1,0 +1,91 @@
+.portfolio {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;     
+    align-items: center;   
+    flex-direction: column;
+}
+
+.Portfolio {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.portfolio_texts {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 438px;
+    height: 68px;
+    flex-shrink: 0;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.Categories {
+    margin-bottom: 50px;
+    display: flex;
+    gap:37px ;
+    width: 606px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.Categories_vang {
+    margin: 0px;
+    color: var(--Yellow, #FFB400);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.Categories_den {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+
+.Categories_img {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 970px;
+    height: 940px;
+    flex-shrink: 0;
+}
+
+.img_Categories {
+    
+    width: 310px;
+    height: 300px;
+    flex-shrink: 0;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}

@@ -1,0 +1,52 @@
+.right_bar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 27px;
+    display: flex;
+    width: 108px;
+    height: 1315px;
+    flex-shrink: 0;
+    background: white;
+}
+
+.Contrast {
+    margin-top: 50px;
+    margin-left: 39px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.menu_rb {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding-top: 174px;
+    margin-left: 21px;
+    width: 65px;
+    height: 493px;
+    flex-shrink: 0;
+}
+
+.command {
+    width: 65px;
+    height: 33px;
+    flex-shrink: 0;
+}
+
+.bg_rb {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.rb_icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 43px;
+}
+

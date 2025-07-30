@@ -1,0 +1,144 @@
+.main_column {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.main_content {
+    display: flex;
+    gap: 26.68px; 
+    margin-left: 30px;
+    background:  #FFF;
+    width: 970px;
+    height: 467px;
+    flex-shrink: 0;
+}
+
+.Introduce {
+    padding-top: 93px;
+    font-weight: bold;
+    width: 500px;
+    color: #2B2B2B;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 123.6%; 
+}
+
+.Front-end {
+    color: var(--Yellow, #FFB400);
+}
+
+.Introduce2 {
+    margin-top: 18px;
+    width: 424px;
+    height: 88px;
+    flex-shrink: 0;
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.main_texts {
+    margin-left: 60px;
+}
+
+.main_btn_vienngoai {
+    margin-top: 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main_btn_vientrong {
+    display: flex;
+    padding: 16px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--Yellow, #FFB400);
+}
+
+.main_btn_texts {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    width: 90px;
+    height: 19px;
+}
+
+.btn_texts {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main_button {
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.main_avt {
+    padding-top: 8px;
+    padding-right: 57.6px;
+    width: 325.719px;
+    height: 459.09px;
+    flex-shrink: 0;
+}
+
+.main_hinh {
+    position: relative;
+}
+
+.tronxanhla {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: rgba(5, 255, 0, 0.80);
+}
+
+.tronvang {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: rgba(255, 180, 0, 0.80);
+}
+
+.tamgiacdo {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    stroke-width: 2px;
+    stroke: rgba(255, 46, 0, 0.80);
+}
+ 
+.square {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    transform: rotate(26.052deg);
+    flex-shrink: 0;
+}

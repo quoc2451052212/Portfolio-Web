@@ -1,0 +1,309 @@
+.Price_main {
+    margin-left: 30px;
+    width: auto;
+    height: auto;
+    flex-shrink: 0;
+    background: white;
+    padding: 0;
+    display: flex;
+    justify-content: center;     
+    align-items: center;   
+    flex-direction: column;
+}
+
+.Price_Plans {
+    margin: 0;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+
+.Price_Plans_texts {
+    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 51px;
+    width: 438px;
+    height: 68px;
+    flex-shrink: 0;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.Price_sort {
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;  
+}
+
+.Price_layout {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 609px;
+    flex-shrink: 0;
+    background: white;
+}
+
+.Price_name {
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 19px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.Price {
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 145px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.money {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; 
+    text-transform: capitalize;
+}
+
+.hours {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.Price_texts {
+    margin: 0px;
+    color: var(--Paragraph-Font, #767676);
+    text-align: center;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.Price_service {
+    margin-bottom: 21px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 253px;
+    height: 305px;
+    flex-shrink: 0;
+}
+
+.UI_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 114px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.check {
+    display: flex;
+    width: 24.885px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.UI_texts {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+}
+
+.chu_mo {
+    margin: 0px;
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+
+.line3 {
+    width: 253px;
+    height: 0.5px;
+    background: black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Web_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.Logo_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 136px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.SEO_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 171px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.WordPress_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 210px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.WebSites_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 125px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.User_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 153px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.Bandwith_design {
+    gap: 15.11px;
+    display: flex;
+    flex-direction: row;
+    width: 167px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.Price_order_silver {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 169px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--White, #FFF);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Price_order_texts {
+    font-weight: bold;
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.MostPopular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 30px;
+    flex-shrink: 0;
+    background: var(--Yellow, #FFB400);
+}
+
+.MostPopular_texts {
+    margin: 0px;
+    color: var(--Black, #2B2B2B);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.Price_order_gold {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 169px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--Yellow, #FFB400);
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+}
