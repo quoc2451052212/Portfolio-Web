@@ -85,6 +85,7 @@
 .CI {
     display: flex;
     flex-direction: column;
+    gap: 18px;
     width: 370px;
     height: 756px;
     flex-shrink: 0;
@@ -105,8 +106,51 @@
 .CI_location {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 370px;
     height: 210px;
     flex-shrink: 0;
     background: var(--White, #FFF);
+}
+
+.location_CI {
+    margin-top: 36px;
+    margin-bottom: 31px;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    fill: var(--Yellow, #FFB400);
+    border-radius: 50%;
+}
+
+.CI_layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CI_benphai {
+    margin: 0px;
+    color: var(--Paragraph-Font, #767676);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+
+.CI_bentrai {
+    margin: 0px;
+    color: var(--Paragraph-Font, #767676);
+    text-align: right;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
 }
